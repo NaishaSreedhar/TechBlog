@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.techblog.testscripts.TestClassSignup">
+        <methods>
+          <include name="signupUserExisting"/>
+          <include name="signupUserinvalid"/>
+          <include name="signupTrainerInvaalid"/>
+          <include name="signTrainerExisting"/>
+          <include name="closeBrowser"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.techblog.testscripts.TestClassSignup -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
